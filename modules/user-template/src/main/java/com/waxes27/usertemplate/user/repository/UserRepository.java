@@ -1,6 +1,6 @@
-package com.waxes27.africrestuser.user.repository;
+package com.waxes27.usertemplate.user.repository;
 
-import com.waxes27.africrestuser.user.models.User;
+import com.waxes27.usertemplate.user.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

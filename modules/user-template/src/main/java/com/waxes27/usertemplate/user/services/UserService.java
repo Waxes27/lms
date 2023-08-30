@@ -1,8 +1,8 @@
-package com.waxes27.africrestuser.user.services;
+package com.waxes27.usertemplate.user.services;
 
-import com.waxes27.africrestuser.user.models.User;
-import com.waxes27.africrestuser.user.repository.UserRepository;
-import com.waxes27.africrestuser.user.security.PasswordEncoder;
+import com.waxes27.usertemplate.user.models.User;
+import com.waxes27.usertemplate.user.repository.UserRepository;
+import com.waxes27.usertemplate.user.security.PasswordEncoder;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

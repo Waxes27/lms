@@ -1,11 +1,11 @@
-package com.waxes27.africrestuser.user.controllers;
+package com.waxes27.usertemplate.user.controllers;
 
 
-import com.waxes27.africrestuser.user.models.User;
-import com.waxes27.africrestuser.user.models.enums.Role;
-import com.waxes27.africrestuser.user.requests.UserRegistrationRequest;
-import com.waxes27.africrestuser.user.security.PasswordEncoder;
-import com.waxes27.africrestuser.user.services.UserService;
+import com.waxes27.usertemplate.user.models.User;
+import com.waxes27.usertemplate.user.models.enums.Role;
+import com.waxes27.usertemplate.user.requests.UserRegistrationRequest;
+import com.waxes27.usertemplate.user.security.PasswordEncoder;
+import com.waxes27.usertemplate.user.services.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 @RestController
 @AllArgsConstructor
@@ -56,7 +55,7 @@ public class LoginController {
         User user = new User(
                 userRegistrationRequest.username(),
                 userRegistrationRequest.password(),
-                Role.RESIDENT
+                Role.USER
         );
 
         user = userService.createNewUser(user);

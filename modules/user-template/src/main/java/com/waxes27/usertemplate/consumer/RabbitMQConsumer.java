@@ -1,8 +1,7 @@
-package com.waxes27.rabbittemplate.consumer;
+package com.waxes27.usertemplate.consumer;
 
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service

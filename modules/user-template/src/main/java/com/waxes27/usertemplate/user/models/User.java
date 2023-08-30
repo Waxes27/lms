@@ -1,6 +1,6 @@
-package com.waxes27.africrestuser.user.models;
+package com.waxes27.usertemplate.user.models;
 
-import com.waxes27.africrestuser.user.models.enums.Role;
+import com.waxes27.usertemplate.user.models.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

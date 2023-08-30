@@ -1,4 +1,4 @@
-package com.waxes27.usertemplate.publisher;
+package com.waxes27.lmstemplate.publisher;
 
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -10,12 +10,12 @@ import org.springframework.stereotype.Service;
 
 public class RabbitMQProducer {
 
-    @Value("${rabbit.queue.name}")
+    @Value("${lms.rabbit.queue.name}")
     private String queue;
-    @Value("${rabbit.queue.exchange.name}")
+    @Value("${lms.rabbit.queue.exchange.name}")
     private String exchange;
 
-    @Value("${rabbit.queue.routing.key}")
+    @Value("${lms.rabbit.queue.routing.key}")
     private String routingKey;
     @Autowired
     private RabbitTemplate rabbitTemplate;

@@ -1,4 +1,4 @@
-package com.waxes27.africrestuser.user.requests;
+package com.waxes27.usertemplate.user.requests;
 
 public record UserRegistrationRequest(
         String username,

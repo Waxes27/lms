@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.waxes27</groupId>
-	<artifactId>africrest-user</artifactId>
+	<artifactId>user-template</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>africrest-user</name>
+	<name>user-template</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<spring-cloud.version>2021.0.7</spring-cloud.version>
@@ -87,7 +87,11 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+        </dependency>
+    </dependencies>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

@@ -1,7 +1,7 @@
-package com.waxes27.africrestuser.user.controllers;
+package com.waxes27.usertemplate.user.controllers;
 
-import com.waxes27.africrestuser.user.models.User;
-import com.waxes27.africrestuser.user.services.UserService;
+import com.waxes27.usertemplate.user.models.User;
+import com.waxes27.usertemplate.user.services.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

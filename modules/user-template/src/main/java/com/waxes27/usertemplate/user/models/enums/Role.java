@@ -1,7 +1,7 @@
-package com.waxes27.africrestuser.user.models.enums;
+package com.waxes27.usertemplate.user.models.enums;
 
 public enum Role {
     ADMIN,
-    RESIDENT,
+    USER,
     MAINTENANCE_EMPLOYEE
 }

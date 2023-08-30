@@ -8,6 +8,12 @@
 		<version>2.7.13</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>pom</packaging>
+	<modules>
+		<module>modules/user-template</module>
+		<module>modules/rabbit-template</module>
+		<module>modules/lms-template</module>
+	</modules>
 	<groupId>com.waxes27</groupId>
 	<artifactId>lms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>

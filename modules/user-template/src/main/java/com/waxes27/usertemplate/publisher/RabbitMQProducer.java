@@ -1,7 +1,6 @@
-package com.waxes27.rabbittemplate.publisher;
+package com.waxes27.usertemplate.publisher;
 
 
-import lombok.AllArgsConstructor;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
