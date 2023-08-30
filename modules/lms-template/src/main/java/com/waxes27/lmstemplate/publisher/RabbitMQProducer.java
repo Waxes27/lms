@@ -21,10 +21,6 @@ public class RabbitMQProducer {
     private RabbitTemplate rabbitTemplate;
 
 
-//    public RabbitMQProducer(RabbitTemplate rabbitTemplate){
-//        this.rabbitTemplate = rabbitTemplate;
-//    }
-
     public void sendMessage(String message){
         System.out.println(message);
         rabbitTemplate.convertAndSend(exchange,routingKey,"Hello There");
